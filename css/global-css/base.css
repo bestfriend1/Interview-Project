@@ -1,0 +1,46 @@
+@import'./_variables.css';
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+body{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-en-primary);
+    font-style: normal;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-black);
+}
+a{
+    display: block;
+    color: var(--color-black);
+    text-decoration:underline;
+}
+a:hover{
+    display: block;
+    color: var(--color-black);
+    text-decoration:underline;  
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: block;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/**** reuseable css ****/

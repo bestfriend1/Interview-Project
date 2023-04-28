@@ -1,0 +1,30 @@
+:root{
+
+    /*******************************
+       FONT FAMILY RELATED VARIABLES
+    ********************************/
+     --font-en-primary:"Rubik",sans-serif;
+     --font-en-secandery:"Roboto",sans-serif;
+
+     /***********************
+      COLOR RELATED VARIABLES 
+      ***********************/
+      --color-primary:#0c0032;
+      --color-secandery: green;
+      --color-text:#121212;
+      --color-heading:#333;
+      --color-white:#fff;
+      --color-black:#000;
+      --text-color:#555555;
+      --color-border:#e8e8e8;
+
+      /***************************
+       FONT SIZE RELATED VARIABLES
+       ***************************/
+       --font-size-sm:16px;
+       ---font-size-md:22px;
+       --font-size-lg:30px;
+       --font-size-xl:40px;
+
+
+}
