@@ -271,3 +271,8 @@ background-color: #F5F5F5;
     left: 0px;
   }
 }
+@media(max-width:500px){
+  .logo img{
+      max-width: 145px;
+  }
+}
